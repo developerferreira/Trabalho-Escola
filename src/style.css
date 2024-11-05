@@ -100,19 +100,7 @@ li h2:hover {
     margin-bottom: 10px;
 }
 
-.autor {
-    padding: 10px;
-}
 
-.autor > h2 {
-    color: black;
-    margin-bottom: 10px;
-}
-
-.autor > p {
-    color: var(--secondary-color);
-    margin-bottom: 10px;
-}
 
 .livros {
     display: flex;
@@ -128,4 +116,19 @@ li h2:hover {
 .livros p {
     /* margin-top: 10px; */
     margin-bottom: 5px;
+}
+
+.adquira {
+    padding: 10px;
+}
+
+
+/* "RESPONSIVIDADE" PORCA */
+
+@media (max-width: 384px) {
+    .retrato {
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
 }

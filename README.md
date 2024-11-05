@@ -1,0 +1,1 @@
+> Devs: desconsiderem este repositório, apenas fiz para um trabalho da escola, sem a intenção de adicioná-lo ao meu portfólio ou qualquer coisa relacionada a isso :).
