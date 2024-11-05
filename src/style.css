@@ -1,0 +1,124 @@
+:root {
+    --main-color: rgb(73, 73, 73);
+    --secondary-color: rgb(83, 83, 83);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E8E5C2;
+}
+
+header {
+    padding: 50px;
+    /* background-color: red; */
+}
+
+header > h1 {
+    color: var(--main-color);
+}
+
+header > p {
+    color: var(--secondary-color);
+    text-wrap: pretty;
+}
+
+header > img {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.fonte {
+    text-align: center;
+}
+
+nav {
+    /* background-color: red; */
+    padding-left: 50px;
+}
+
+ul {
+    /* list-style-type: circle; */
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    /* margin-bottom: 5px; */
+}
+
+li {
+    /* background-color: red; */
+    padding: 5px;
+    transition: transform 0.3s ease-out;
+}
+
+li:hover {
+    transform: translateY(-5px);
+}
+
+li a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: larger;
+}
+
+li h2:hover {
+    cursor: pointer;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.autora {
+    padding: 10px;
+}
+
+.autora > h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.autora > p {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.autor {
+    padding: 10px;
+}
+
+.autor > h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.autor > p {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.livros {
+    display: flex;
+    flex-direction: column;
+}
+
+.livros img {
+    width: 200px;
+    height: 300px;
+    /* margin-top: 10px; */
+}
+
+.livros p {
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
+}
